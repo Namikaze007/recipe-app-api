@@ -139,7 +139,7 @@ class PrivateRecipeApiTests(TestCase):
     def test_full_update(self):
         """Test full update of recipe."""
         recipe = create_recipe(
-            user = self.user,
+            user=self.user,
             title='Sample recipe title',
             link='https://example.com/recipe.pdf',
             description='Sample recipe description.',
